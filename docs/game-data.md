@@ -169,7 +169,10 @@ namespace Shapetris
 }
 ```
 
-И сразу опишем тесты в `Shapetris.Tests/GameplayPoolTests.cs`: 
+<details>
+<summary>И сразу опишем тесты в `Shapetris.Tests/GameplayPoolTests.cs`: </summary>
+<p>
+
 
 ```cs
 using System.Linq;
@@ -337,6 +340,8 @@ namespace Shapetris.Tests
     }
 }
 ```
+</p>
+</details>
 
 Ключевое отличие от `ApplicationState` в том, что мы не сможем реализовать методы взаимодействия без дополнительной работы на пулом.
 
