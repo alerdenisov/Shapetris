@@ -174,7 +174,9 @@ namespace Shapetris
 ```
 </p></details>
 
+
 Cразу опишем тесты в `Shapetris.Tests/GameplayPoolTests.cs`:
+
 
 <details>
 <summary style="background-color: red"><b>GameplayPoolTests.cs</b></summary>
