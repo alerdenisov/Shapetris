@@ -69,6 +69,10 @@ namespace Shapetris
 
 Давайте для начала, по аналогии с `ApplicationState`, опишем методы взаимодействия с игровыми данными. Создаем файл `Gameplay\Extensions\GameplayPoolExtensions.cs`:
 
+<details>
+<summary style="background-color: red"><b>GameplayPoolExtensions.cs</b></summary>
+<p>
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -168,13 +172,13 @@ namespace Shapetris
     }
 }
 ```
+</p></details>
 
-
+Cразу опишем тесты в `Shapetris.Tests/GameplayPoolTests.cs`:
 
 <details>
-<summary style="background-color: red"><b>И сразу опишем тесты в Shapetris.Tests/GameplayPoolTests.cs:</b></summary>
+<summary style="background-color: red"><b>GameplayPoolTests.cs</b></summary>
 <p>
-
 
 ```cs
 using System.Linq;
